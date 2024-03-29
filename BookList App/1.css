@@ -1,0 +1,26 @@
+header svg {
+    /* height: 4rem;
+    width: 4rem;
+    max-width: 100%; */
+    /* width: clamp(8px, 4rem, 100%); */
+    width: 5rem;
+   
+}
+/* .container {
+    max-width: 90%;
+} */
+@media(max-width: 800px) {
+    header svg {
+        width: 3.5rem;
+    }
+} 
+@media(max-width: 500px) {
+    header svg {
+        width: 3rem;
+    }
+} 
+@media(min-width: 1000px) {
+    .container {
+        max-width: 800px;
+    }
+}
