@@ -6,10 +6,10 @@
 > Github: https://github.com/bloomholic/javascript/tree/master/Dom%20Item%20Lister
 > Live Preview: https://6602ff353e4bc866c99e6a75--regal-beignet-76c7f3.netlify.app/
 
-# Book List App
+# Book List App (used class oop)
 > Github: https://github.com/bloomholic/javascript/tree/master/BookList%20App 
 > Live Preview: https://6606b28fd2b5aceaa4a8c780--unique-churros-b5e6bf.netlify.app/ 
 
-# Filterable List with Materialize css
+# Filterable List with Materialize css (used class oop)
 > Github: https://github.com/bloomholic/javascript/tree/master/Filterable%20List%20with%20Materialize%20css
 > Live Preview: https://66081438e4397fa8d568149d--lustrous-buttercream-21706b.netlify.app/
