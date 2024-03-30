@@ -13,3 +13,7 @@
 # Filterable List with Materialize css (used class oop)
 > Github: https://github.com/bloomholic/javascript/tree/master/Filterable%20List%20with%20Materialize%20css
 > Live Preview: https://66081438e4397fa8d568149d--lustrous-buttercream-21706b.netlify.app/
+
+#Simple weight converter with bulma css
+> Github: https://github.com/bloomholic/javascript/tree/master/Simple%20weight%20converter%20with%20bulma%20css
+> Live Preview: https://660849837bbc71116506c802--earnest-daffodil-a16b8e.netlify.app/
