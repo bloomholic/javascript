@@ -9,3 +9,7 @@
 # Book List App
 > Github: https://github.com/bloomholic/javascript/tree/master/BookList%20App 
 > Live Preview: https://6606b28fd2b5aceaa4a8c780--unique-churros-b5e6bf.netlify.app/ 
+
+# Filterable List with Materialize css
+> Github: https://github.com/bloomholic/javascript/tree/master/Filterable%20List%20with%20Materialize%20css
+> Live Preview: https://66081438e4397fa8d568149d--lustrous-buttercream-21706b.netlify.app/
