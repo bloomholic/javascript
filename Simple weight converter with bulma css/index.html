@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        @media (prefers-color-scheme: dark) {
+        /* @media (prefers-color-scheme: dark) {
         :root {
-            /* Update CSS variables */
+           
         }
         }
 
         [data-theme=dark],
         .theme-dark {
-        /* Update CSS variables */
-        }
+       
+        } */
         .container{
             height: 100vh;
         }
@@ -26,9 +27,32 @@
 </head>
 <body>
     <div class="container section h-100 is-flex is-justify-content-center is-flex-direction-column">
-        <div class="title is-1 block">
-            Weight Converter
+        <div class="block">
+            <div class="">
+                <div class="dropdown is-active">
+                    <div class="dropdown-trigger">
+                      <button class="button" id="dropDownButton" aria-haspopup="true" aria-controls="dropdown-menu3">
+                        <span>Color Mode</span>
+                        <span class="icon is-small">
+                          <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="dropdown-menu" style="display:none" id="dropdown-menu3" role="menu">
+                      <div class="dropdown-content">
+                        <div href="" class="dropdown-item is-active" id="light"> Light </div>
+                        <div href="" class="dropdown-item" id="dark"> Dark </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>   
         </div>
+        <div class="level">
+            <div class="title is-1 block level-item">
+                Weight Converter
+            </div>
+        </div>
+        
         <input class="input is-link block is-large" type="text" placeholder="Enter Kgs" id="input">
         <div class="box block has-background-link-25 has-text-primary-25-invert overflow-hidden" id="gram">
             Grams: <div class="is-size-4-mobile is-size-2 overflow-hidden"></div>
